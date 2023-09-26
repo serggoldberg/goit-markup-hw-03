@@ -19,45 +19,57 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
-          <a class="logo" href="./index.html"
-            >Web<span class="accent">Studio</span></a
-          >
-          <ul>
-            <li><a class="nav-link" href="./index.html">Studio</a></li>
-            <li><a class="nav-link" href="">Portfolio</a></li>
-            <li><a class="nav-link" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="add-link">
-          <ul>
-            <li>
-              <a class="address-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+      <div class="container-header">
+        <div class="header-inner">
+          <nav>
+            <div class="header-nav">
+              <a class="logo" href="./index.html"
+                >Web<span class="accent">Studio</span></a
               >
-            </li>
-            <li>
-              <a class="address-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+              <ul class="nav-list">
+                <li><a class="nav-link" href="./index.html">Studio</a></li>
+                <li><a class="nav-link" href="">Portfolio</a></li>
+                <li><a class="nav-link" href="">Contacts</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <address class="add-link">
+            <ul>
+              <div class="header-social">
+                <li>
+                  <a class="address-link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="address-link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </div>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="hero-section">
         <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <div class="hero-inner">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <div class="hero-action">
+              <button class="hero-button" type="button">Order Service</button>
+            </div>
+          </div>
         </div>
       </section>
+
       <section class="advantages-section">
         <div class="container">
           <h2 hidden>Our advantages</h2>
-          <ul>
+          <ul class="advantages-list">
             <li>
               <h3 class="advantages-title">Strategy</h3>
               <p class="advantages-text">
@@ -89,53 +101,65 @@
           </ul>
         </div>
       </section>
+
       <section class="team-section">
         <div class="container">
-          <h2 class="hero-team-title">Our Team</h2>
-          <ul>
-            <li class="card-one">
-              <img
-                src="./images/mark.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <h3 class="team-title">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
-            </li>
-            <li class="card-one">
-              <img
-                src="./images/tom.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <h3 class="team-title">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
-            </li>
-            <li class="card-one">
-              <img
-                src="./images/camila.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <h3 class="team-title">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
-            </li>
-            <li class="card-one">
-              <img
-                src="./images/daniel.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <h3 class="team-title">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
-            </li>
-          </ul>
+          <div class="team-inner">
+            <h2 class="hero-team-title">Our Team</h2>
+            <ul class="team-cards">
+              <li class="card-one">
+                <img
+                  src="./images/mark.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                />
+                <div class="card">
+                  <h3 class="team-title">Mark Guerrero</h3>
+                  <p class="team-text">Product Designer</p>
+                </div>
+              </li>
+              <li class="card-one">
+                <img
+                  src="./images/tom.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                  height="260"
+                />
+                <div class="card">
+                  <h3 class="team-title">Tom Ford</h3>
+                  <p class="team-text">Frontend Developer</p>
+                </div>
+              </li>
+              <li class="card-one">
+                <img
+                  src="./images/camila.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+                <div class="card">
+                  <h3 class="team-title">Camila Garcia</h3>
+                  <p class="team-text">Marketing</p>
+                </div>
+              </li>
+              <li class="card-one">
+                <img
+                  src="./images/daniel.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+                <div class="card">
+                  <h3 class="team-title">Daniel Wilson</h3>
+                  <p class="team-text">UI Designer</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
+
       <section class="portfolio-section">
         <div class="container">
           <h2 class="hero-portfolio-title">Our Portfolio</h2>
