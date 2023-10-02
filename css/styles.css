@@ -131,7 +131,7 @@ img {
 
 /* one */
 
-.hero-inner {
+.hero-section {
   background-color: var(--c-background);
   padding: 188px 0;
 }
@@ -181,7 +181,7 @@ img {
 
 .advantages-list {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 24px;
 }
 .advantages-title {
@@ -197,7 +197,7 @@ img {
 }
 
 /* three */
-.team-inner {
+.team-section {
   background-color: var(--c-white-text);
   padding: 120px 0;
 }
@@ -251,25 +251,41 @@ img {
 .portfolio-section {
   padding: 120px 0;
 }
+
 .hero-portfolio-title {
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
-  text-align: center;
   margin-bottom: 72px;
 }
+
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-card {
+  flex-basis: calc((100% - 48px) / 3);
+}
+.portfolio {
+  justify-content: center;
+  margin: 32px 0;
+}
+
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   background-color: var(--c-primary-light);
-  text-align: center;
+  text-align: left;
   margin-bottom: 8px;
 }
 .portfolio-text {
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   background-color: var(--c-primary-light);
 }
 
