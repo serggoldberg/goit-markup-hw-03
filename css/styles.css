@@ -40,13 +40,13 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 15px;
 }
 
 .container-header {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -62,6 +62,7 @@ img {
   text-transform: uppercase;
   display: flex;
 }
+
 .logo .accent {
   font-family: 'Raleway', sans-serif;
   color: var(--c-background);
@@ -71,6 +72,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 /* NAVIGATION */
@@ -85,7 +87,7 @@ img {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 24px;
   flex-grow: 1;
 }
@@ -110,7 +112,7 @@ img {
   text-decoration: underline;
 }
 .header-social {
-  display: inline-flex;
+  display: flex;
   gap: 40px;
 }
 
