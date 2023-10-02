@@ -38,7 +38,7 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -61,6 +61,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: flex;
+  margin-right: 76px;
 }
 
 .logo .accent {
@@ -72,7 +73,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 /* NAVIGATION */
