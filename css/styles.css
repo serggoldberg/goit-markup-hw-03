@@ -167,7 +167,9 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   color: var(--c-primary-light);
