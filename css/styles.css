@@ -39,17 +39,11 @@ img {
 }
 
 .container {
-  margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
 }
-.header-inner container {
-  margin: 0 auto;
-}
 
 .container-header {
-  margin: 0 auto;
-  max-width: 1158px;
   padding: 0 15px;
   border-bottom: 1px solid var(--c-border);
 }
