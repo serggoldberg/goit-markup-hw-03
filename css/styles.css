@@ -43,6 +43,9 @@ img {
   width: 1158px;
   padding: 0 15px;
 }
+.header-inner container {
+  margin: 0 auto;
+}
 
 .container-header {
   margin: 0 auto;
@@ -285,16 +288,17 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .portfolio-card {
   flex-basis: calc((100% - 48px) / 3);
-  row-gap: 48px;
 }
 .portfolio {
   justify-content: center;
   padding: 32px 16px;
   border: 1px solid var(--c-border);
+  border-top: none;
 }
 
 .portfolio-title {
