@@ -41,10 +41,10 @@ img {
 .container {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .container-header {
-  padding: 0 15px;
   border-bottom: 1px solid var(--c-border);
 }
 
