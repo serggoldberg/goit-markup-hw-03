@@ -194,6 +194,20 @@ img {
   line-height: 1.2;
   margin-bottom: 8px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .advantages-text {
   font-weight: 400;
   max-width: 264px;
@@ -207,19 +221,6 @@ img {
 
 .advantages {
   width: calc((100% - 72px) / 4);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .hero-team-title {
@@ -241,14 +242,14 @@ img {
 .card-one {
   width: calc((100% - 72px) / 4);
   background-color: var(--c-primary-light);
+  border-radius: 0 0 4px 4px;
 }
 
 .card {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
-  margin: 32px 0;
+  padding: 32px 0;
 }
 
 .team-title {
@@ -257,14 +258,12 @@ img {
   line-height: 1.2;
   text-align: center;
   margin-bottom: 8px;
-  margin-top: 32px;
   background-color: var(--c-primary-light);
 }
 .team-text {
   font-weight: 400;
   text-align: center;
   background-color: var(--c-primary-light);
-  margin-bottom: 32px;
 }
 
 /* four */
