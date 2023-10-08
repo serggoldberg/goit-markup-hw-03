@@ -86,8 +86,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
-  flex-grow: 1;
 }
 
 .nav-list {
@@ -95,6 +93,7 @@ img {
   gap: 40px;
   flex-grow: 1;
   justify-content: center;
+  margin: 0;
 }
 
 .nav-link {
@@ -107,11 +106,12 @@ img {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--c-hover);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .header-social {
   display: flex;
   gap: 40px;
+  margin: 0;
 }
 
 .add-link {
@@ -120,6 +120,8 @@ img {
 .address-link {
   text-decoration: none;
   font-weight: 400;
+  display: inline-block;
+  padding: 24px 0;
 }
 .address-link:hover,
 .address-link:focus {
